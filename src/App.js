@@ -1,10 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { Landing, Vetan, WhyMool } from "./Components"
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 function App() {
   return (
-    <div className="App text-5xl font-bold underline">
-      Mool Website 2.0
+    <div>
+      <Navbar />
+      <Landing />
+      {/* <Vetan />
+      <WhyMool /> */}
+      <Footer />
     </div>
   );
 }
